@@ -22,11 +22,11 @@
 
 | Ваша система | Файл | |
 |---|---|---|
-| **Windows** 10/11 | `Automaton_0.5.4_x64_ru-RU.msi` | установщик с русским интерфейсом |
-| **macOS** (Apple silicon) | `Automaton_0.5.4_aarch64.dmg` | для маков на Intel сборки пока нет |
-| **Linux** (Debian, Ubuntu, Mint) | `Automaton_0.5.4_amd64.deb` | `sudo apt install ./файл` |
-| **Linux** без dpkg | `Automaton_0.5.4_amd64.AppImage` | запускается без установки и без прав администратора |
-| **Сервер** без графики | `automaton-server_0.5.4_amd64.deb` | движок и страница управления, без графических библиотек |
+| **Windows** 10/11 | `Automaton_0.5.5_x64_ru-RU.msi` | установщик с русским интерфейсом |
+| **macOS** (Apple silicon) | `Automaton_0.5.5_aarch64.dmg` | для маков на Intel сборки пока нет |
+| **Linux** (Debian, Ubuntu, Mint) | `Automaton_0.5.5_amd64.deb` | `sudo apt install ./файл` |
+| **Linux** без dpkg | `Automaton_0.5.5_amd64.AppImage` | запускается без установки и без прав администратора |
+| **Сервер** без графики | `automaton-server_0.5.5_amd64.deb` | движок и страница управления, без графических библиотек |
 
 ### Чего ожидать при первом запуске
 
@@ -42,11 +42,11 @@
 ### Сверьте скачанное
 
 ```
-eaebfe1194b23462327036c2bd8b9b84b8f4c352a46e8de7cb5f693c1a9edc0e  Automaton_0.5.4_x64_ru-RU.msi
-c308f689e79a78e8329faaa7b8819fa5c6a8d9ce2fe603a9d5dcbba9c6934050  Automaton_0.5.4_aarch64.dmg
-f4c2db339e7ad2e2ab00902601dbf8dd9037696fcd4854797dd36b00162581dd  Automaton_0.5.4_amd64.deb
-56c6c857cfc0a874b429ad67acab48dfce909773cdab3b947fe4d8774f5b2713  Automaton_0.5.4_amd64.AppImage
-3ab0bb398216db39a85fde25f4d3b9f55de41b8d19552ed87a7e4362a237c076  automaton-server_0.5.4_amd64.deb
+5d756ca148d7feb3a6b45d223ee62362ea00144ba41790c60dc32d34b61e3134  Automaton_0.5.5_x64_ru-RU.msi
+e3a329570c609558a5a360ec91327d9e4f01661a805f6d7781d4aa5f49d5b971  Automaton_0.5.5_aarch64.dmg
+9394c849a4d13f896ecce5676981ccf826e146ee446bd52801d4ed07fdac1245  Automaton_0.5.5_amd64.deb
+cdb125ffcc3c1f3d6fadc7850508403f64edfb8065411c1b0b75a9678a0a734b  Automaton_0.5.5_amd64.AppImage
+6bc5ec40818af92d9114200c0229e049dc22c841745de25623e99cfd7d25f0bc  automaton-server_0.5.5_amd64.deb
 ```
 
 `sha256sum <файл>` в Linux и macOS, `certutil -hashfile <файл> SHA256` в Windows.
